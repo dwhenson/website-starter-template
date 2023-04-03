@@ -1,5 +1,6 @@
-@use "base";
-@use "components";
-@use "layouts";
+@use "global";
+@use "composition";
 @use "utilities";
+@use "blocks";
+@use "exceptions";
 @use "vendor";

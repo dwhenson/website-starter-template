@@ -1,12 +1,15 @@
-$ff-sans: "Open Sans", sans-serif;
-
 $font-sizes: (
-  900: 3.75rem,
-  800: 3rem,
-  600: 1.5rem,
-  500: 1.3125rem,
-  400: 1.125rem,
+  "step--1": clamp(0.83rem, calc(0.8rem + 0.15vw), 0.94rem),
+  "step-0": clamp(1rem, calc(0.93rem + 0.36vw), 1.25rem),
+  "step-1": clamp(1.2rem, calc(1.07rem + 0.67vw), 1.67rem),
+  "step-2": clamp(1.44rem, calc(1.22rem + 1.12vw), 2.22rem),
+  "step-3": clamp(1.73rem, calc(1.38rem + 1.76vw), 2.96rem),
+  "step-4": clamp(2.07rem, calc(1.54rem + 2.68vw), 3.95rem),
+  "step-5": clamp(2.49rem, calc(1.7rem + 3.96vw), 5.26rem),
 );
+
+$ff-body: system-ui, sans-serif;
+$ff-headings: system-ui, sans-serif;
 
 $fw-400: 400;
 $fw-700: 700;

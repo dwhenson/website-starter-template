@@ -1,0 +1,46 @@
+@use "../abstracts" as *;
+
+body {
+  grid-template-rows: auto 1fr auto;
+  overflow-x: hidden;
+  background-color: var(--color-bg, colorValue(neutral, light));
+  font-family: $ff-body;
+  font-size: fontSize(step-0);
+  color: var(--color-fg, colorValue(neutral, dark));
+}
+
+:where(h1, h2, h3, h4) {
+  font-family: $ff-headings;
+  font-family: $ff-headings;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: fontSize(step-5);
+}
+
+h2 {
+  font-size: fontSize(step-4);
+}
+
+h3 {
+  font-size: fontSize(step-3);
+}
+
+h4 {
+  font-size: fontSize(step-2);
+}
+
+p {
+  max-inline-size: min(100%, 55ch);
+}
+
+:focus-visible {
+  opacity: 1 !important;
+  outline: 4px solid currentColor;
+  outline-offset: 4px;
+}
+
+:focus:not(:focus-visible) {
+  outline: transparent;
+}
