@@ -1,5 +1,5 @@
 /* Add vertical rhythm between sections */
 
-:where(body, .flow-section) > * + * {
+:where(body, .flow-region) > * + * {
   margin-block-start: var(--flow-section, spaceValue(space-3xl));
 }

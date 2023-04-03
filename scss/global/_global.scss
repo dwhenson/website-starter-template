@@ -6,13 +6,13 @@ body {
   background-color: var(--color-bg, colorValue(neutral, light));
   font-family: $ff-body;
   font-size: fontSize(step-0);
+  line-height: 1.5;
   color: var(--color-fg, colorValue(neutral, dark));
 }
 
 :where(h1, h2, h3, h4) {
   font-family: $ff-headings;
-  font-family: $ff-headings;
-  text-transform: uppercase;
+  line-height: 1.1;
 }
 
 h1 {

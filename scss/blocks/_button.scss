@@ -1,0 +1,12 @@
+@use "../abstracts" as *;
+
+.button {
+  display: inline-flex;
+  padding-block: spaceValue(space-s);
+  padding-inline: spaceValue(space-m);
+  border: 0;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
