@@ -3,11 +3,11 @@
 body {
   grid-template-rows: auto 1fr auto;
   overflow-x: hidden;
-  background-color: var(--color-bg, colorValue(neutral, light));
+  background-color: var(--color-bg, #{colorValue(neutral, light)});
   font-family: $ff-body;
   font-size: fontSize(step-0);
   line-height: 1.5;
-  color: var(--color-fg, colorValue(neutral, dark));
+  color: var(--color-fg, #{colorValue(neutral, dark)});
 }
 
 :where(h1, h2, h3, h4) {

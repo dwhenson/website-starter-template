@@ -3,7 +3,7 @@
 .has-sidebar {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--bespoke-gap, spaceValue(space-s));
+  gap: var(--bespoke-gap, #{spaceValue(space-s)});
 
   > :first-child {
     flex-basis: var(--side-size, 30rem);

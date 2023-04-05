@@ -2,7 +2,7 @@
 
 .grid {
   display: grid;
-  grid-gap: var(--gap, spaceValue(space-s));
+  grid-gap: var(--gap, #{spaceValue(space-s)});
 }
 
 @supports (width: min(250px, 100%)) {
